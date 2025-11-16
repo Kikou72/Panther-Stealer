@@ -162,7 +162,7 @@
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   const hook = new Webhook({
-    url: '*WEBHOOK*',
+    url: 'https://discord.com/api/webhooks/1439354104068571248/SiDSBzeY9fLRZRVvZNCDjTMPn8L_xRD_4VelMFJlJ3dlWqybpyJTr2kpD0gfDukL902v',
     throwErrors: false,
     retryOnLimit: true
   })
